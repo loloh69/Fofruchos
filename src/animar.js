@@ -1,7 +1,7 @@
 function criarPinto() {
   const container = document.querySelector('#chuva');
   const pinto = document.createElement('img');
-  pinto.src = '/src/icon.png';
+  pinto.src = 'src/icon.png';
   pinto.classList.add('pintos');
 
 
@@ -22,4 +22,5 @@ function criarPinto() {
 }
 
 // Criar corações continuamente
+
 setInterval(criarPinto, 500);
