@@ -92,8 +92,8 @@ body {
     text-align: center;
     border: solid 2px rgb(55, 2, 7);
     background-color: rgba(254, 201, 66, 0.884);
-    width: clamp(12rem, 80vw, 24rem);
-    height: clamp(27rem, 85vh, 40rem);
+    width: clamp(12rem, 95vw, 24rem);
+    height: clamp(27rem, 90vh, 40rem);
     box-shadow: 0px 0px 10px 8px rgba(31, 26, 48, 0.142);
     z-index: 1;
     position: relative;
@@ -181,4 +181,5 @@ body {
     font-size: 0.7rem;
 
 }
+
 
